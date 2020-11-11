@@ -1,0 +1,26 @@
+{
+  "name": "devphp-pmro/pdo-conection",
+  "description": "simple connect pdo",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leonardo Magalhães",
+      "email": "devphp.pmro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
