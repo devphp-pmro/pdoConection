@@ -14,8 +14,7 @@ To use the library, simply require the composer to autoload, invoke the class an
 
 open the Config.php file in the source folder and enter the credentials for connecting to the database
 
-//define the connection settings to the database for backup
-
+//define the connection settings to the database connect
 
     DEFINE("BD",
            ["host" => "host",
