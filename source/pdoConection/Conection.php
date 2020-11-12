@@ -19,8 +19,7 @@ class Conection
         $this->conection = new pdo("mysql:host=".BD['host'].";dbname=".BD['data_base']."",
             BD['user'], BD['password'],
             array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
-                PDO::ATTR_CASE, PDO::CASE_NATURAL,
-                PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ));
+                PDO::ATTR_CASE, PDO::CASE_NATURAL));
 
         if (!$this->conection) {
             print_r($this->conection->errorInfo());
