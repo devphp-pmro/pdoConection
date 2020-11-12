@@ -14,7 +14,7 @@
       "Source\\": "source/"
     },
     "files": [
-      "Config.php"
+      "DB_CONF.php"
     ]
   },
   "config": {

@@ -2,7 +2,7 @@
 
 namespace Source\pdoConection;
 use PDO;
-require_once __DIR__ . "../../Config.php";
+require_once __DIR__ . "../../DB_CONF.php";
 
 class Conection
 {
