@@ -14,7 +14,7 @@
       "Source\\": "source/"
     },
     "files": [
-      "source/Config.php"
+      "Config.php"
     ]
   },
   "config": {
