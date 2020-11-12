@@ -15,6 +15,7 @@ To use the library, simply require the composer to autoload, invoke the class an
 open the Config.php file in the source folder and enter the credentials for connecting to the database
 
 //define the connection settings to the database connect
+//inset your credentials.
 
     DEFINE("BD",
            ["host" => "host",
@@ -23,6 +24,8 @@ open the Config.php file in the source folder and enter the credentials for conn
                "password"=>"password",
                "port"=>"3306"]
         );
+
+
 
 
 default port 3306
