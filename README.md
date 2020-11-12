@@ -12,7 +12,7 @@ To use the library, simply require the composer to autoload, invoke the class an
 
 <?php
 
-open the Config.php file in the source folder and enter the credentials for connecting to the database
+open the DB_CONF.php file and enter the credentials for connecting to the database
 
 //define the connection settings to the database connect
 //inset your credentials.
